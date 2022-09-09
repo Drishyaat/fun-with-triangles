@@ -13,9 +13,9 @@ function isTriangle() {
 
    const sumOfAngles= calculateSumOfAngles(Number(inputs[0].value),Number(inputs[1].value),Number(inputs[2].value));
    if(sumOfAngles===180)
-   {
-    //console.log("yes");
-    outputE1.innerText="The angles form a triangle";
+   { 
+    //console.log(sumOfAngles);
+   outputE1.innerText="The angles form a triangle";
    }
    else{ //console.log("no");
     outputE1.innerText="Sorry, the angles dont form a triangle";
