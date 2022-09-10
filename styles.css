@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+body{
+    background-color:rgb(76, 76, 68) ;
+    color: antiquewhite;
+    font-family: 'Combo', cursive;
+
+}
+nav{
+    background-color: rgb(245, 220, 220);
+    padding: 2rem 2rem 2rem 2rem;
+    
+    text-align: left;
+    border-top-left-radius: 1rem;
+}
+.link {
+    text-decoration: none;
+    
+}
+li{
+    display: inline; 
+    padding: 1rem;
+    
+}
+input{
+    width: 50%;
+    height: 30px;
+}
+
+
+button{
+    border-radius: .3rem;
+    border-color:antiquewhite ;
+    font-family: 'Combo', cursive;
+    padding: .4rem;
+
+}

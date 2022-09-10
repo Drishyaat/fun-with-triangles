@@ -21,4 +21,4 @@ function isTriangle() {
     outputE1.innerText="Sorry, the angles dont form a triangle";
    }
    
-isTriangleBtn.addEventListener("click" ,isTriangle)
+isTriangleBtn.addEventListener("click" ,isTriangle);
