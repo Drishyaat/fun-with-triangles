@@ -5,7 +5,8 @@ const outputE1=document.querySelector('#output');
 
 function product(b,h)
 {
-  const pro= b*h;
+  const pro = b*h;
+  return pro;
 }
 
 function findArea()

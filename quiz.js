@@ -19,4 +19,4 @@ function calculateScore(){
     outputE1.innerText="Your score is-" + score;
     
 }
-submitBtn.addEventListener("click", calculateScore) ;
+submitBtn.addEventListener("click", calculateScore)

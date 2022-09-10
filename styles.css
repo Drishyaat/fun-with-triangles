@@ -14,7 +14,8 @@ nav{
 }
 .link {
     text-decoration: none;
-    
+    font-weight: bolder;
+    color:rgb(76, 76, 68) ;
 }
 li{
     display: inline; 
@@ -26,11 +27,18 @@ input{
     height: 30px;
 }
 
-
+#output{
+   width: 50%;
+}
 button{
     border-radius: .3rem;
     border-color:antiquewhite ;
     font-family: 'Combo', cursive;
     padding: .4rem;
 
+}
+.link-active {
+    color:black;
+    text-decoration: none;
+    
 }
