@@ -1,20 +1,31 @@
 const areaInput=document.querySelectorAll('.area-input');
 //const Height=document.querySelector('height-input');
-const areaBtn= document.querySelector("#area-btn");
+const areaBtn= document.querySelector('#area-btn');
 const outputE1=document.querySelector('#output');
 
-function product(b,h)
+// function clickHandler()
+// {
+//   findArea()
+// }
+function product(b, h)
 {
-  const pro = b*h;
-  return pro;
+  const pro = b*h; ;
+  return pro; 
+  
 }
 
 function findArea()
 {   
+  if(Number(areaInput[0].value)>0 && Number(areaInput[1].value)>0 ){
     const pro=product(Number(areaInput[0].value), Number(areaInput[1].value))
-    const area=1/2*pro;
-     //return area;
-     outputE1.innerText="The area is-" + area;
-     //console.log(Number(base.value), Number(Height.value));
+    const area= pro/2;
+    outputE1.innerText="The area is: " + area;
+  }
+  else 
+  {
+    outputE1.innerText="Enter valid length of sides."
+  }
+     
 }
+     
 areaBtn.addEventListener("click",findArea)

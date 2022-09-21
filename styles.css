@@ -5,11 +5,15 @@ body{
     font-family: 'Combo', cursive;
 
 }
+.heading {
+    color: rgb(76, 76, 68);
+    text-align: left;
+}
 nav{
     background-color: rgb(245, 220, 220);
     padding: 2rem 2rem 2rem 2rem;
     
-    text-align: left;
+    text-align: right;
     border-top-left-radius: 1rem;
 }
 .link {
@@ -28,6 +32,7 @@ input{
 }
 
 #output{
+    padding: 1rem 1rem;
    width: 50%;
 }
 button{
