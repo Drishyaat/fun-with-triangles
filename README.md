@@ -19,3 +19,9 @@ A web app made using HTML , CSS and JavaScript to perform some operations on tri
 * Area
   - Takes input and calculates area of the traingle
 * The operations dont allow empty fields and negative input
+ ### Technologies used:
+* HTML
+* CSS
+* JavaScript
+### Live link of project 
+[Here](https://funn-with-trianglles.netlify.app/index.html)
