@@ -25,7 +25,7 @@ hypotenuseBtn.addEventListener('click',()=>{
         outputE1.innerText=`Enter valid length of sides.`;
     }
     else {
-        outputE1.innerText=`Hypotenuse is ${hypotenuse.toFixed(2)}`;
+        outputE1.innerText=`Hypotenuse is ${hypotenuse.toFixed(2)}cm`;
     }
 });
  

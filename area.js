@@ -19,7 +19,7 @@ function findArea()
   if(Number(areaInput[0].value)>0 && Number(areaInput[1].value)>0 ){
     const pro=product(Number(areaInput[0].value), Number(areaInput[1].value))
     const area= pro/2;
-    outputE1.innerText="The area is: " + area;
+    outputE1.innerText=`The area is: ${area}cm`;
   }
   else 
   {
